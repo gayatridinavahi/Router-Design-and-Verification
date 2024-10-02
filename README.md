@@ -1,7 +1,7 @@
 # Router-Design-and-Verification
 
 ## Design
-#### Router was designed with the signals: clk, reset,dut_inp,inp_valid,dut_outp,outp_valid,busy,error.
+#### Router was designed with the signals: clk, reset, dut_inp, inp_valid, dut_outp, outp_valid, busy, error.
 #### The 'dut_inp' and 'dut_outp' signals are the ones carrying the data. Signals 'inp_valid' and 'outp_valid' are present to indicate the validity of data on both sides (when the processing of data begins and ends).
 #### The verification environment was created with a self-checking testbench that prints out the result of whether the test has been passed or not. 
 #### The toal no.of packets sent must match the ones received.
